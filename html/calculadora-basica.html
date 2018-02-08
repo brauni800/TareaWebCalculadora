@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script type="text/javascript" lenguage="javascript">
+			function action() {
+				firstDigit = prompt("Escriba el primer digito","Escriba aqui");
+				secondDigit = prompt("Escriba el segundo digito", "Escriba aqui");
+			}
+			function sumar() {
+				
+				var resultado = firstDigit + secondDigit;
+				alert("El resultado es " + resultado);
+			}
+			function restar() {
+				var resultado = firstDigit - secondDigit;
+				alert("El resultado es " + resultado);
+			}
+			function multiplicar() {
+				var resultado = firstDigit * secondDigit;
+				alert("El resultado es " + resultado);
+			}
+			function dividir() {
+				var resultado = firstDigit / secondDigit;
+				alert("El resultado es " + resultado);
+			}
+		</script>
+	</head>
+	<body>
+		<div>
+			<h1>Calculadoras y funciones matematicas</h1>
+		</div>
+		<div>
+			<input type="button" value="Numeros" onclick="action()">
+			<input type="button" value="+" onclick="sumar()">
+			<input type="button" value="-" onclick="restar()">
+			<input type="button" value="*" onclick="multiplicar()">
+			<input type="button" value="/" onclick="dividir()">
+		</div>
+	</body>
+</html>
